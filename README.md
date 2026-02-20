@@ -31,7 +31,7 @@ Technical Specifications
 Training & Performance
 ----------------------
 - Scaled-up model: 6 layers, 6 heads, 384 embedding dimensions
-- Validation loss: 1.48 after ~15 minutes of training on an A100 GPU
+- Validation loss: 1.48 after about 60 minutes of training on a T4 GPU
 - Generated text captures patterns and structure of Shakespearean English, though it may be nonsensical
 
 Getting Started
