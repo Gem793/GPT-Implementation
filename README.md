@@ -1,7 +1,7 @@
 Building GPT from Scratch: A Character-Level Language Model
 ===========================================================
 
-This project demonstrates how to build a Generatively Pre-trained Transformer (GPT) from scratch, based on the landmark paper "Attention is All You Need" (2017). The implementation is a decoder-only Transformer designed to model sequences at the character level.
+This project builds a Generatively Pre-trained Transformer (GPT) from scratch. The implementation is a decoder-only Transformer designed to model sequences at the character level.
 
 The goal is to train a model capable of generating infinite text in a specific style. While professional systems like ChatGPT are trained on massive datasets, this project uses the Tiny Shakespeare dataset—a 1MB file containing the complete works of Shakespeare.
 
@@ -34,15 +34,3 @@ Training & Performance
 - Validation loss: 1.48 after about 60 minutes of training on a T4 GPU
 - Generated text captures patterns and structure of Shakespearean English, though it may be nonsensical
 
-Getting Started
----------------
-- Requires Python proficiency and basic understanding of calculus and statistics.
-- Core implementation is ~200 lines of code, designed to be educational and simple.
-- Steps:
-    1. Download the Tiny Shakespeare dataset.
-    2. Run the training script using PyTorch.
-    3. Generate text after training completes.
-
-License
--------
-This project is intended for educational purposes.
